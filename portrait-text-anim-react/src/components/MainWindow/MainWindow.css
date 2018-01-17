@@ -1,0 +1,7 @@
+.MainWindowDiv {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 640px;
+  height: 480px;
+  border: 3px solid white;
+}
