@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import TechnoTronAll from "../TechnoTronAll/TechnoTronAll.js"
+import CommandWindow from "../CommandWindow/CommandWindow.js"
 
 import './MainWindow.css';
 
@@ -14,6 +15,7 @@ class MainWindow extends Component {
       <div className="MainWindowDiv">
 
         <TechnoTronAll />
+        <CommandWindow />
 
       </div>
 

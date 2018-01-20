@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
+import TechnoTronPortraitBox from '../TechnoTronPortraitBox/TechnoTronPortraitBox.js';
+import TechnoTronTextBox from '../TechnoTronTextBox/TechnoTronTextBox.js';
+
 import './TechnoTronAll.css';
+
 
 
 class TechnoTronAll extends Component {
@@ -11,7 +15,8 @@ class TechnoTronAll extends Component {
 
       <div className="TechnoTronAllDiv">
 
-        <TechnoTronAll />
+        <TechnoTronPortraitBox />
+        <TechnoTronTextBox />
 
       </div>
 
